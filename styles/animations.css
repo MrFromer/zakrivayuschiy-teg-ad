@@ -56,51 +56,51 @@
   }
   
   .like-icon .heart {
-    transition: transform 0.3s ease-in;
+    transition: fill .1s;
     transform-origin: center center;
   }
   
   /* Сердце */
   .like-icon .main-body {
     fill: var(--bg-color);
-    transition: fill 0.3s ease;
+    transition: fill .3s;
   }
   
   .card__icon-button:hover .main-body {
     fill: var(--accent-color);
-    transition: fill 0.3s ease 0.05s;
+    transition: fill .5s 3ms;
   }
   
   .card__icon-button:active .main-body {
     fill: var(--heart-color);
-    transition: fill 0.3s ease;
+    transition: fill .3s 6ms;
   }
   
   .like-icon.is-liked .main-body {
     fill: var(--heart-color);
-    transition: fill 0.3s ease;
+    transition: fill .3s 3ms;
   }
   
   
   /* Плюс */
   .like-icon .core {
     fill: var(--bg-color);
-    transition: fill 0.3s ease;
+    transition: fill .3s 5ms;
   }
   
   .card__icon-button:hover .core {
     fill: var(--accent-color);
-    transition: fill 0.3s ease;
+    transition: fill .3s 3ms;
   }
   
   .card__icon-button:active .core {
     fill: var(--heart-color);
-    transition: fill 0.3s ease;
+    transition: fill .3s;
   }
   
   .like-icon.is-liked .core {
     fill: var(--heart-color);
-    transition: fill 0.3s ease;
+    transition: fill .3s;
   }
   
   /* Контур */
@@ -110,7 +110,7 @@
   
   .like-icon.is-liked .contour {
     fill: var(--heart-color);
-    transition: fill 0.3s ease 0.06s;
+    transition: fill .3s 5ms;
   }
   
   
@@ -121,20 +121,20 @@
   }
   
   .like-icon.is-liked .sparks {
-    animation: sparks 0.3s ease-in 0.3s 1;
+    animation: sparks .3s ease;
   }
   
   .like-icon.is-liked .heart {
-    animation: scale 0.3s ease-in 0.1s 1;
+    animation: scale .3s ease;
   }
   
   @keyframes scale {
     from {
-      transform: scale(1);
+      scale: 0;
     }
   
     to {
-      transform: scale(1.25);
+      scale: 1;
     }
   }
   
