@@ -1,1 +1,1 @@
-https://github.com/MrFromer/zakrivayuschiy-teg-ad
+https://mrfromer.github.io/zakrivayuschiy-teg-ad/
